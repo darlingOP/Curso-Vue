@@ -5,7 +5,8 @@
     <router-link :to="{name:'counter'}">Counter</router-link> |
     <router-link :to="{name:'users'}" >Usuarios</router-link> |
     <router-link :to="{name:'pokemon-search'}">Buscar Pokemon</router-link> |
-    <router-link :to="{name:'todo'}">Todo List</router-link>
+    <router-link :to="{name:'todo'}">Todo List</router-link> |
+    <router-link :to="{name:'slots'}">Custom slots</router-link>
   </nav>
 
   <!--Keep alive es una forma de mantener el estado de un componente
